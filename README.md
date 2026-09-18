@@ -1,8 +1,16 @@
 # Python Fundamentals
 
-![Project Overview](docs/images/0_project_overview.png)
+![Where It All Started](docs/images/0_project_overview.png)
 
-A set of small, self-contained Python scripts covering core language and problem-solving fundamentals — written with detailed inline explanations of *why* each step is done, not just *what*.
+## Why this is here
+
+These five scripts are intentionally basic. A tax calculator, a unit converter, a currency converter, a student record system, a palindrome checker — nothing here is meant to show off advanced skill. It's the opposite: this repo stays exactly as simple as it started.
+
+Revisiting these reminded me why I got into Business Analytics and Python in the first place. Modelling a real tax system, managing structured records, converting units, checking patterns — these weren't just exercises. They were my first exposure to thinking in systems: breaking a problem into logic, handling edge cases, validating inputs, making sure the output could actually be trusted.
+
+That shift — from writing code to designing solutions — is what shaped how I approach problem-solving, scalability, and clarity in analytics today. So this repo isn't here to impress. It's here as a marker of where that started, and a reminder that progress isn't always about moving forward — sometimes it's about recognising how far your fundamentals have taken you.
+
+## The scripts
 
 | Script | What it does |
 |---|---|
