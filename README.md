@@ -1,5 +1,7 @@
 # Python Fundamentals
 
+![Project Overview](docs/images/0_project_overview.png)
+
 A set of small, self-contained Python scripts covering core language and problem-solving fundamentals — written with detailed inline explanations of *why* each step is done, not just *what*.
 
 | Script | What it does |
