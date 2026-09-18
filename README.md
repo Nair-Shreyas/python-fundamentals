@@ -20,5 +20,9 @@ That shift — from writing code to designing solutions — is what shaped how I
 | `currency_converter.py` | Converts between currencies using exchange rates |
 | `palindrome_checker.py` | Checks whether a given string or number is a palindrome |
 
+`tax_calculator.py` running in VS Code, generating a full Statement of Liability from user input:
+
+![Tax calculator running](docs/images/1_tax_calculator_in_action.png)
+
 ## Tech
 Pure Python, no external dependencies — each script runs standalone.
