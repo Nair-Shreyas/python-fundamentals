@@ -26,3 +26,5 @@ That shift — from writing code to designing solutions — is what shaped how I
 
 ## Tech
 Pure Python, no external dependencies — each script runs standalone.
+
+<!-- last reviewed: 2026-09 -->
