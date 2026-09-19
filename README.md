@@ -1,4 +1,4 @@
-# Python Fundamentals
+# Where It All Started
 
 ![Where It All Started](docs/images/0_project_overview.png)
 
