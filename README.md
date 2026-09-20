@@ -30,3 +30,5 @@ Pure Python, no external dependencies — each script runs standalone.
 <!-- last reviewed: 2026-09 -->
 
 <!-- portfolio actively maintained -->
+
+<!-- Thanks to Nikhil for feedback on this repo -->
