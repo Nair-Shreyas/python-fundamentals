@@ -2,6 +2,12 @@
 
 ![Where It All Started](docs/images/0_project_overview.png)
 
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python: 3"/>
+  <img src="https://img.shields.io/badge/Built_in-VS_Code-007ACC?style=flat-square" alt="Built in: VS Code"/>
+  <img src="https://img.shields.io/badge/Scripts-5-c9440c?style=flat-square" alt="Scripts: 5"/>
+</p>
+
 ## Why this is here
 
 These five scripts are intentionally basic. A tax calculator, a unit converter, a currency converter, a student record system, a palindrome checker — nothing here is meant to show off advanced skill. It's the opposite: this repo stays exactly as simple as it started.
