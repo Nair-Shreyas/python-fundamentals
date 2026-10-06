@@ -32,7 +32,7 @@ Student Record System
 # Purpose:
 #   This function is responsible for adding a new student record to a file named "students.txt".
 #   It ensures the student ID is unique (no duplicate entries).
-#   Data is saved in CSV format (ID, Name, Course, Marks) — one student per line.
+#   Data is saved in CSV format (ID, Name, Course, Marks), one student per line.
 #
 # File operations used:
 #   - File reading (to check for duplicates)
@@ -62,7 +62,7 @@ def add_student():
     # Ask for the course the student is enrolled in
 
     marks = input("🎯 Enter Marks (0–100): ").strip()
-    # Ask for the student's marks — string for now (can be validated later)
+    # Ask for the student's marks as a string for now (can be validated later)
     
     if not marks.isdigit() or not (0 <= int(marks) <= 100):
      print("❌ Marks must be a number between 0 and 100.")
@@ -102,7 +102,7 @@ def add_student():
     with open("students.txt", "a") as file:
         # ▶ write(): https://www.w3schools.com/python/ref_file_write.asp
         file.write(f"{student_id},{name},{course},{marks}\n")
-        # Format: ID,Name,Course,Marks — separated by commas
+        # Format: ID,Name,Course,Marks, separated by commas
         # Example line: S1023,Arjun,Data Analytics,87
 
         # Confirmation message
@@ -159,7 +159,7 @@ def update_marks():
             for line in file:
                 # ▶ startswith(): https://www.w3schools.com/python/ref_string_startswith.asp
                 if line.startswith(student_id + ","):
-                    # Match found — student exists in file
+                    # Match found: student exists in file
 
                     parts = line.strip().split(",")  
                     # ▶ strip(): https://www.w3schools.com/python/ref_string_strip.asp

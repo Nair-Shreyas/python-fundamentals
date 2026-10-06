@@ -190,11 +190,11 @@ def currency_converter():  # ▶ Function: https://www.w3schools.com/python/pyth
             # This makes input lowercase and removes extra spaces so it works for 'Yes', ' YES ', etc.
 
             if again in ['y', 'yes']:
-                # User wants to continue — break out of this inner loop and restart outer loop
+                # User wants to continue: break out of this inner loop and restart outer loop
                 break
 
             elif again in ['n', 'no']:
-                # User does not want to continue — print exit message and return from function
+                # User does not want to continue: print exit message and return from function
                 print("\n👋 Thank you for using the Currency Converter. Goodbye!")
                 return  # ▶ return: https://www.w3schools.com/python/ref_keyword_return.asp
 

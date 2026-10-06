@@ -227,7 +227,7 @@ def length_convert(value, from_unit, to_unit):  # ▶ Function: https://www.w3sc
 # FUNCTION 5: weight_convert(value, from_unit, to_unit)
 # --------------------------------------------------------------------------------------------
 # Purpose:
-#   Converts a given weight from one unit to another — specifically between:
+#   Converts a given weight from one unit to another, specifically between:
 #     ▪ Kilograms (kg)
 #     ▪ Pounds (lb)
 #
@@ -365,7 +365,7 @@ def unit_converter():  # ▶ Function: https://www.w3schools.com/python/python_f
         # Output (kind) will be a string like: "Temperature", "Length", etc.
 
         # ====================================================================================
-        # STEP 3: Exit Condition — User selected "Exit" from the menu
+        # STEP 3: Exit Condition (user selected "Exit" from the menu)
         # ====================================================================================
 
         if kind == "Exit":

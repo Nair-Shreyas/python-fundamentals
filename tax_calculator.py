@@ -40,7 +40,7 @@ Tax Calculator
 
 def calculate_usc(income):  # ▶ Function: https://www.w3schools.com/python/python_functions.asp
     usc = 0  # ▶ Variable declaration: https://www.w3schools.com/python/python_variables.asp
-    # Start with USC as zero — we will add values progressively based on income slabs.
+    # Start with USC as zero; we will add values progressively based on income slabs.
 
     if income <= 12012:  # ▶ if statement: https://www.w3schools.com/python/python_conditions.asp
         # If the total income is less than or equal to €12,012, only the first slab (0.5%) applies.
@@ -70,7 +70,7 @@ def calculate_usc(income):  # ▶ Function: https://www.w3schools.com/python/pyt
         # - 3% on the next €42,662
         # - 8% on the remaining income above €70,044
         usc = 12012 * 0.005 + 15370 * 0.02 + 42662 * 0.03 + (income - 70044) * 0.08
-        # Each slab is calculated and summed up sequentially — last part handles income over €70,044
+        # Each slab is calculated and summed up sequentially; the last part handles income over €70,044
 
     return round(usc, 2)  # ▶ round(): https://www.w3schools.com/python/ref_func_round.asp
     # Round the final USC to 2 decimal places for currency formatting before returning the result
@@ -213,7 +213,7 @@ def get_yes_no(prompt):  # ▶ Function definition
             # If the input matches one of the two acceptable answers, return it
             return response  # Passes back a clean 'yes' or 'no' to the calling function
         else:
-            # Input was not valid — show an error message and repeat the loop
+            # Input was not valid: show an error message and repeat the loop
             print("❌ Please enter 'Yes' or 'No' only.")
             # This message helps guide the user back to correct input format
 
@@ -248,7 +248,7 @@ def get_positive_float(prompt):
             # If input is invalid (e.g., "abc"), this line will raise a ValueError and jump to except
 
             if value <= 0:
-                # Income or tax values must be greater than 0 — no zero or negative allowed
+                # Income or tax values must be greater than 0: no zero or negative allowed
                 print("❌ Enter a positive number greater than 0.")
                 # Error message guiding the user
 
@@ -301,7 +301,7 @@ def get_dependents():
         except ValueError:
             # 🧯 Handles cases where input could not be converted to integer
             print("❌ Please enter a whole number (0, 1, or 2).")
-            # Reminds the user to enter a number — not letters or symbols
+            # Reminds the user to enter a number, not letters or symbols
 
 
 # ===========================================================================================
@@ -313,7 +313,7 @@ def get_dependents():
 # ===========================================================================================
 
 def generate_sol():
-    # This is the main function — it orchestrates the full tax calculation process.
+    # This is the main function; it orchestrates the full tax calculation process.
     # It collects user input, performs all calculations, and prints the results in a readable format.
 
     print("\n================================================================================")
@@ -322,7 +322,7 @@ def generate_sol():
     # Decorative print lines used to create a clear title and structure in the terminal
 
     # ------------------------------------------------------------------------
-    # STEP 1: Collect user input — ensure no empty responses using validation
+    # STEP 1: Collect user input, ensuring no empty responses using validation
     # ------------------------------------------------------------------------
 
     while True:
@@ -346,7 +346,7 @@ def generate_sol():
             # Prompt again if name is left blank
 
     gross_income = get_positive_float("🔷 Enter Annual Gross Income in Euros (e.g., 50,000): ")
-    # Ask the user to enter gross income — validated separately to ensure it’s a positive float
+    # Ask the user to enter gross income, validated separately to ensure it’s a positive float
 
     print("\n🔸 Answer the following questions with Yes or No:")
     # Transition into the next section asking eligibility questions for tax credits
@@ -427,7 +427,7 @@ while True:
 
     generate_sol()  
     # ▶ Function call
-    # Run one full tax calculation — handles input, tax computation, and output formatting
+    # Run one full tax calculation: handles input, tax computation, and output formatting
 
     again = get_yes_no("Would you like to calculate another tax return?")
     # Prompt the user to decide if they want to calculate another return
@@ -439,7 +439,7 @@ while True:
         print("\n👋 Exiting the calculator. Goodbye!")
         # Friendly exit message before terminating
         break  # ▶ break keyword: https://www.w3schools.com/python/ref_keyword_break.asp
-        # Break exits the loop — no further calculations will run
+        # Break exits the loop; no further calculations will run
 
 
 #====================
